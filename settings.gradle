@@ -6,6 +6,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Library Template"
+rootProject.name = "Rounded Letter View"
 include ':sample'
 include ':library'

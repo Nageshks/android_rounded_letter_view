@@ -1,20 +1,41 @@
 
-Library
+Rounded Letter View
 ---------------------
-description
+- Add rectangular and circle shape background to your text
+- Adding rectangular support to https://github.com/pavlospt/RoundedLetterView
+
+<img src="https://github.com/Nageshks/android_rounded_letter_view/blob/main/screenshot.png" width="360" height="780">
 
 Usage
 -------
 
-```kotlin
-code
+```xml
+    <com.nageshempire.roundedletterview.RoundedLetterView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:rlv_backgroundColor="@color/black"
+        app:rlv_round="0.25"
+        app:rlv_titleColor="@android:color/holo_red_dark"
+        app:rlv_titleSize="30dp"
+        app:rlv_titleText="C" />
 ```
 
+### Control Shape
+``` xml
+app:rlv_round="@dimen/rlv_shape_circle"
+app:rlv_round="@dimen/rlv_shape_rectangle"
+app:rlv_round="@dimen/rlv_shape_rounded_rectangle"
+app:rlv_round="0.25"
+```
+
+``` java
+letterView.setRounding(floatValue)
+```
 Download
 --------
 
 ```groovy
-implementation("io.github.nageshks.library:library:<latest-release>")
+implementation("io.github.nageshks.roundedletterview:roundedletterview:1.0.0")
 ```
 
 License

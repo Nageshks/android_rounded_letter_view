@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundedLetterView">
+        <attr format="string|reference" name="rlv_titleText"/>
+        <attr format="dimension|reference" name="rlv_titleSize"/>
+        <attr format="color|reference" name="rlv_titleColor"/>
+        <attr format="color|reference" name="rlv_backgroundColor"/>
+        <attr format="float|reference|dimension" name="rlv_round"/>
+    </declare-styleable>
+</resources>

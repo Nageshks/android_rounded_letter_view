@@ -1,4 +1,4 @@
-package com.nageshempire.library
+package com.nageshempire.roundedletterview
 
 import org.junit.Test
 

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rlv_shape_circle" format="float" type="dimen">0.5</item>
+    <item name="rlv_shape_rectangle" format="float" type="dimen">0</item>
+    <item name="rlv_shape_rounded_rectangle" format="float" type="dimen">0.08</item>
+</resources>
